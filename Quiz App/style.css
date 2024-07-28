@@ -8,9 +8,10 @@
 }
 
 body{
-     background-color: #E0E6ED;
+     background-color: #E0E6ED;   
+    
 }
-
+   
 h2{
     color:#2E3A45;
     
@@ -51,3 +52,38 @@ h2{
     background-color:  #00B4D8;
 
 } 
+/* Responsive styles */
+@media (max-width: 1024px) {
+    #box {
+        width: 60%;
+    }
+    .btn {
+        width: 50%;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    #box {
+        width: 70%;
+    }
+    .btn {
+        width: 60%;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 540px) {
+    #box {
+        width: 90%;
+    }
+    .btn {
+        width: 80%;
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    .row {
+        margin: 1rem;
+    }
+}
